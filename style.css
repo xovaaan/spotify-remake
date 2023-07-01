@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,1000;1,400&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,1000;1,400&family=Ubuntu&family=Varela&family=Varela+Round&display=swap');
+body{
+    background-color:black;
+   
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+
+nav{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    height: 70px;
+    background-color: black;
+    color: azure;
+    align-items: center;
+    cursor: pointer;
+}
+
+nav ul li{
+    padding: 0 1.2rem;
+}
+
+.logo img{
+     width: 44px;
+     padding: 0 7px;
+     cursor: pointer;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: azure;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 70%;
+    margin: 23px auto;
+    border-radius: 15px;
+    padding-left: 1rem;
+    padding-top: 1rem;
+    background-image: url(miles-morales-spider-gwen-spiderman-into-the-spider-verse-uhdpaper.com-4K-9\ \(1\).jpg);
+}
+
+.container h1{
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 0.6rem;
+    padding: 0.3rem;
+  
+}
+
+.bottom{
+    background-color: black;
+    height: 122px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 20px;
+}
+
+.icons i{
+    cursor: pointer;
+}
+
+#progress{
+    width: 80vw;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: azure;
+    color: black;
+    margin: 10px 0;
+    border-radius: 1.2rem;
+
+}
+
+.songItem img{
+    width: 50px;
+    margin: 0 15px;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.times{
+    margin: 0 10px;
+}
+.times i{
+    cursor: pointer;
+}
+
+.songContainer{
+    margin-top: 30px;
+}
+
+.gifs{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Varela Round', sans-serif;
+}
+
+.gifs img{
+    opacity: 0;
+    transition: 0.9s ease-in;
+}
+
+/* responsive */
+
+@media  only screen and (max-width : 1000px) {
+    body{
+        background-color: black;
+
+    }
+    .icons{
+        margin-top: 33px;
+    }
+    .logo{
+        display: flex;
+        align-items: center;
+        font-weight: bolder;
+        font-size: 1.4rem;
+        cursor: pointer;
+    }
+    .logo img{
+        width: 44px;
+        cursor: pointer;
+   }
+   .container h1{
+    font-weight: bolder;
+    background-color: black;
+    border-radius: 0.6rem;
+    padding: 0.2rem;
+}
+.container{
+    min-height: 73vh;
+    background-color: black;
+    color: azure;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 83%;
+    margin: 20px auto;
+    border-radius: 15px;
+    padding-left: 0.3rem;
+    padding-right: 0.2rem;
+    padding-top: 1rem;
+    background-image: url(miles-morales-spider-gwen-spiderman-into-the-spider-verse-uhdpaper.com-4K-9\ \(1\).jpg);
+}
+.songItem{
+    height: 47px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: azure;
+    color: black;
+    margin: 4px 0;
+    border-radius: 1.2rem;
+
+}
+.songContainer{
+    margin-top: 20px;
+}
+.bottom{
+    background-color: black;
+    height: 110px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: azure;
+    flex-direction: column;
+}
+
+#progress{
+    width: 75vw;
+    cursor: pointer;
+}
+.gifs{
+    position: absolute;
+    left: 26vw;
+    font-family: 'Varela Round', sans-serif;
+    margin-bottom: 16px;
+}
+}
